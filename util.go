@@ -1,7 +1,7 @@
 package portapps
 
 import (
-	"github.com/ynowk/kernal/pkg/utl"
+	"github.com/tynov/kernal/pkg/utl"
 )
 
 // ElectronAppPath returns the app electron path
