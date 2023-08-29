@@ -13,7 +13,7 @@ import (
 	"github.com/tynov/kernal/pkg/log"
 	"github.com/tynov/kernal/pkg/utl"
 	_ "github.com/tynov/kernal/pkg/win"
-	"gopkg.in/yaml.v3"
+	_ "gopkg.in/yaml.v3"
 )
 
 // App represents an active app object
