@@ -36,8 +36,8 @@ func (app *App) loadConfig(appcfg interface{}) (err error) {
 	}
 
 	// Write sample config
-	/*raw, err := yaml.Marshal(app.config)
-	if err != nil {
+	raw, err := yaml.Marshal(app.config)
+	/*if err != nil {
 		return err
 	}
 	err = os.WriteFile(utl.PathJoin(app.RootPath, fmt.Sprintf("%s.sample.yml", app.ID)), raw, 0o644)
@@ -54,7 +54,7 @@ func (app *App) loadConfig(appcfg interface{}) (err error) {
 	raw, err = os.ReadFile(cfgPath)
 	/*if err != nil {
 		return err
-	}
+	}*/
 
-	return yaml.Unmarshal(raw, &app.config)*/
+	return yaml.Unmarshal(raw, &app.config)
 }
